@@ -1,0 +1,689 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project=D:/UnrealProjects/Chuandi/Chuandi.uproject -noP4 -platform=Win64 -clientconfig=Development -cook -stage -pak -archive -archivedirectory=D:/UnrealProjects/Chuandi/Packaged -skipbuild -NoUBA -unattended -utf8output
+Initializing script modules...
+Total script module initialization time: 0.26 s.
+Using D:\vs2026\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for D:\UnrealProjects\Chuandi\Chuandi.uproject
+********** COOK COMMAND STARTED **********
+Running UnrealEditor Cook for project D:\UnrealProjects\Chuandi\Chuandi.uproject
+Commandlet log file is D:\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.10.28-21.46.28.txt
+Running: D:\Epic Games\UE_5.8\Engine\Binaries\Win64\UnrealEditor-Cmd.exe "D:\UnrealProjects\Chuandi\Chuandi.uproject" -run=Cook  -TargetPlatform=Windows  -unversioned -fileopenlog -abslog="D:\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.10.28-21.46.28.txt" -stdout -CrashForUAT -unattended -NoLogTimes
+LogInit: Display: Running engine for game: Chuandi
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Display: Control listening on port 33769
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.8-CL-58210709"
+LogCsvProfiler: Display: Metadata set : engineversion="5.8.3-58210709+++UE5+Release-5.8"
+LogCsvProfiler: Display: Metadata set : enginereleaseversion="5.8.3"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (25H2) [10.0.26200.9711] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Core(TM) i9-14900HX"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : mergedmodules="0"
+LogCsvProfiler: Display: Metadata set : compacttset="0"
+LogCsvProfiler: Display: Metadata set : commandline="" D:\UnrealProjects\Chuandi\Chuandi.uproject -run=Cook -TargetPlatform=Windows -unversioned -fileopenlog -abslog="D:\Epic Games\UE_5.8\Engine\Programs\AutomationTool\Saved\Cook-2026.10.28-21.46.28.txt" -stdout -CrashForUAT -unattended -NoLogTimes""
+LogCsvProfiler: Display: Metadata set : loginid="bf2025d6426d39c1bf8af6aa64f03ba0"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogCsvProfiler: Display: Metadata set : zenstreaming="0"
+LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+LogAudio: Display: Audio Device Manager not initializing due to all audio being disabled. If this is not intentional, please check command line arguments for "-nosound".
+LogAssetRegistry: Display: FindShardedCacheFiles: 1 via .ref, 0 via migration fallback, 1 total
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PreLoad): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogAssetRegistry: Display: LoadCacheFiles: loading 1 cache files, memory-mapping=enabled
+LogConfig: Display: Loading Android ini files took 0.04 seconds
+LogConfig: Display: Loading IOS ini files took 0.04 seconds
+LogConfig: Display: Loading Mac ini files took 0.05 seconds
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogConfig: Display: Loading TVOS ini files took 0.05 seconds
+LogConfig: Display: Loading VisionOS ini files took 0.05 seconds
+LogConfig: Display: Loading Linux ini files took 0.06 seconds
+LogConfig: Display: Loading Unix ini files took 0.06 seconds
+LogConfig: Display: Loading Windows ini files took 0.06 seconds
+Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Mode=ValidatePlatforms -OutputSDKs  -AllPlatforms  -project="D:/UnrealProjects/Chuandi/Chuandi.uproject" -log="D:/UnrealProjects/Chuandi/Saved/Logs/AutoSDKInfo.txt" -verbose -timestamps
+LogAssetRegistry: Display: Asset registry cache read as 120.9 MiB from ../../../../../UnrealProjects/Chuandi/Intermediate/CachedAssetRegistry/CachedAssetRegistry_0_614646664A3D4C8E9516CDB125E8E834.bin (memory-mapped=yes)
+Log file: D:\UnrealProjects\Chuandi\Saved\Logs\AutoSDKInfo.txt
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Log is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.CSV is disabled for this application
+LogAnalytics: Display: Provider StudioTelemetry.Provider.Horde is disabled for this application
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogAsyncCompilation: Display: MemorySharingInfo: UsedMemory=389MiB, MaxMemoryAvailable=38703MiB
+##PlatformValidate: Win64 VALID 10.0.22621.0
+##PlatformValidate: Mac INVALID 26.1.1
+##PlatformValidate: IOS INVALID 26.1.1
+##PlatformValidate: Android INVALID r27c
+##PlatformValidate: Linux INVALID v26_clang-20.1.8-rockylinux8
+##PlatformValidate: LinuxArm64 INVALID <UNKNOWN>
+##PlatformValidate: TVOS INVALID 26.1.1
+##PlatformValidate: VisionOS INVALID <UNKNOWN>
+Unable to find required SDK version 'MainVersion' for platform LinuxArm64. Check your SDK.json files
+Unable to find required SDK version 'MainVersion' for platform VisionOS. Check your SDK.json files
+SetFileInformationByHandle (FileDispositionInfo) failed on 1688 C:\Users\25544\AppData\Local\UnrealBuildTool\Trace.uba (Access is denied.)
+LogStreaming: Display: AsyncLoading2 - Created: Async Loading Thread: false, Async Post Load: false, Multithreaded: false
+LogHAL: Display: Platform has ~ 32 GB [34141495296 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+LogObj: Display: Attempting to load config data for Default__DownlinkBandwidthManagerConfig before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.16
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.16.dll
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Android'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'IOS'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Linux'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'Mac'
+LogTargetPlatformManager: Display: Failed to SetupSDK for platform 'TVOS'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+LogTargetPlatformManager: Display: Building Assets For Windows
+LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhiname="Null"
+LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+LogCsvProfiler: Display: Metadata set : shaderplatform="PCD3D_SM6"
+LogCsvProfiler: Display: Metadata set : gpu=""
+LogCsvProfiler: Display: Metadata set : gpudriver=""
+LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1670 MiB)
+LogZenServiceInstance: Display: Launching zen utility 'D:/Epic Games/UE_5.8/Engine/Binaries/Win64/zen.exe service status'.
+LogZenServiceInstance: Display: Zen utility process has been running for 2.0 seconds without completing, still waiting...
+LogZenServiceInstance: Display: Writing plugin version info to 'C:/Users/25544/AppData/Local/UnrealEngine/Common/Zen/Install/zen_plugin_versions.json'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/25544/AppData/Local/UnrealEngine/5.8/Saved/Zen/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Read zen version cache file from 'C:/Users/25544/AppData/Local/UnrealEngine/Common/Zen/Install/zen.version', version: '5.8.13-202605190912-windows-x64-release-094f62c2'
+LogZenServiceInstance: Display: Installed service at 'C:/Users/25544/AppData/Local/UnrealEngine/Common/Zen/Install/zenserver.exe' is up to date
+LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at http://[::1]:8558 status: OK!.
+LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at [::1] with namespace ue.ddc. Status: OK!.
+LogDerivedDataCache: Display: C:/Users/25544/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.06ms. RandomReadSpeed=166.99MBs, RandomWriteSpeed=63.73MBs. Assigned SpeedClass 'Local'
+LogUbaHorde: Display: UBA/Horde Configuration [Uba.Provider.Horde]: Not Enabled
+LogShaderCompilers: Display: No distributed shader compiler controller found
+LogShaderCompilers: Display: Using 29 local workers for shader compilation
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../UnrealProjects/Chuandi/Intermediate/ShaderAutogen/PCD3D_SM6/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogEditorDomain: Display: EditorDomain is Disabled
+LogAssetRegistry: Display: AssetDataGatherer spent 0.000s loading caches from ../../../../../UnrealProjects/Chuandi/Intermediate/CachedAssetRegistry.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+LogMeshReduction: Display: No distributed automatic mesh merging module available
+LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../UnrealProjects/Chuandi/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 2.006 ms
+LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+LogAudio: Display: Registering Engine Module Parameter Interfaces...
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+LogCsvProfiler: Display: Metadata set : raytracing="0"
+LogCook: Display: CookProcessCount=1. CookMultiprocess is disabled and the cooker is running as a single process.
+LogCook: Display: CookSettings for Memory:
+	MemoryMaxUsedVirtual 0MiB
+	MemoryMaxUsedPhysical 0MiB
+	MemoryMinFreeVirtual 2048MiB
+	MemoryMinFreePhysical 2048MiB
+	MemoryTriggerGCAtPressureLevel None
+	SoftGCMemoryUseTrigger disabled
+	SoftGCTimeBudgetTrigger enabled (0.05 budget, 30s min period)
+LogCook: Display: SkipOnlyEditorOnly is enabled, unsolicited packages will not be cooked unless they are referenced from the cooked version of the instigator package.
+LogCook: Display: ---- Pre Content Initialisation: End ----
+LogCook: Display: ---- Post Content Initialisation: Start ----
+LogEditorDomain: Display: Cycle detected in parents of class /Script/RigVMDeveloper.RigVMUnitNode. Allow flags for editordomain and incremental cooking will be invalid.
+LogZenStore: Display: Establishing oplog 'Chuandi.bcff98bc/EditorDomain'
+LogZenStore: Display: Zen project 'Chuandi.bcff98bc' already exists
+LogZenStore: Display: Zen oplog 'Chuandi.bcff98bc/EditorDomain' already exists
+LogCook: Display: Waiting for Asset Registry
+LogAssetRegistry: Display: Starting OnFilesLoaded.Broadcast
+LogAssetRegistry: Display: Completed OnFilesLoaded.Broadcast: 0.014s
+LogAssetRegistry: Display: Asset registry cache written as 120.9 MiB to ../../../../../UnrealProjects/Chuandi/Intermediate/CachedAssetRegistry/CachedAssetRegistry_*.ref
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display:   CachedAssetRegistry_0_614646664A3D4C8E9516CDB125E8E834.bin: deleted (orphaned, unreferenced by any .ref)
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 2 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 1 orphans deleted, 0 orphans locked (kept)
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogCook: Display: INCREMENTAL COOK DEPENDENCIES: Enabled. Incremental Cook Dependencies are enabled in Editor.ini:[CookSettings]:LegacyIterative=false.
+LogZenStore: Display: Establishing oplog 'Chuandi.bcff98bc/Windows'
+LogZenStore: Display: Zen project 'Chuandi.bcff98bc' already exists
+LogStorageServerPlatformFile: Display: Found 'D:/UnrealProjects/Chuandi/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using connection settings from ue.projectstore: HostAddrs='[::1]+172.25.82.189' and HostPort='8558'
+LogStorageServerPlatformFile: Display: Found 'D:/UnrealProjects/Chuandi/Saved/Cooked/Windows/ue.projectstore'
+LogStorageServerPlatformFile: Display: Using password authentication from ue.projectstore
+LogStorageServerPlatformFile: Display: Using settings from ue.projectstore: ServerProject='Chuandi.bcff98bc' and ServerPlatform='Windows'
+LogStorageServerConnection: Display: Creating zen store connection to [::1]:8558 ("::1").
+LogStorageServerConnection: Display: Zen store connection established to [::1]:8558.
+LogCook: Display: CalculateGlobalDependenciesHash(Windows):
+LogCook: Display: 	FGuid CookIncrementalVersion = ffa12fdc-c822-1fe2-7757-627a12f1d3a7
+LogCook: Display: 	[Editor]:CookSettings.ProjectCookIncrementalVersion = 00000000-0000-0000-0000-000000000000
+LogCook: Display: 	[Engine]:Core.System.CanStripEditorOnlyExportsAndImports = True
+LogCook: Display: 	[Engine]:Core.System.CanSkipEditorReferencedPackagesWhenCooking = False
+LogCook: Display: 	CanUseUnversionedPropertySerialization = True
+LogCook: Display: 	[Editor]:CookSettings.AutomaticOptionalInclusionAssetType = /Script/Niagara.NiagaraScript, /Script/Niagara.NiagaraEmitter, /Script/Niagara.NiagaraSystem, /Script/NiagaraEditor.NiagaraParameterDefinitions, /Script/Niagara.NiagaraEffectType, /Script/Niagara.NiagaraValidationRuleSet, /Script/OptimusCore.OptimusDeformer
+LogCook: Display: 	IsCookFlagSet(ECookInitializationFlags::Unversioned) = True
+LogCook: Display: 	FCoreRedirects::AppendHashOfGlobalRedirects = 4628a73979b5807a7df2c30e3569e387562ac9ef3eeffbdc79d1b1e9658a3bdc
+LogCook: Display: 	GlobalDependenciesHash(Windows) = 659d861afcb9b60e9000b513ff7a40f8737689c6dd7cff988b7fe71be46841f9
+LogCook: Display: FULL COOK: Incremental Cooks are disabled by default in Editor.ini:[CookSettings]:CookIncrementalDefaultIncremental=false, and commandline did not specify -forcerecook=false. Deleting previously cooked packages for platform Windows and recooking all packages discovered in the current cook.
+LogZenStore: Display: Deleting oplog 'Chuandi.bcff98bc/Windows' if it exists
+LogZenStoreWriter: Display: Deleting D:/UnrealProjects/Chuandi/Saved/Cooked/Windows/...
+LogZenStore: Display: Zen oplog 'Chuandi.bcff98bc/Windows' created
+LogCook: Display: Sandbox cleanup took 0.617 seconds for platforms Windows
+LogCook: Display: Compiling global changed shaders for platform 'Windows'
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 461 (46100.00%)
+LogShaderLibrary: Display: Total Shaders: 8100, Unique Shaders: 8098 (99.98%)
+LogShaderLibrary: Display: Total Shader Size: 96.38mb, Unique Shaders Size: 96.38mb (100.00%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 530
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     2, 2, 1, 1, 1, 1, 1, 1, 1, 1
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 5925 shaders (73.17%), compressed size: 74.10 MB (12.81 KB avg per shader), uncompressed size: 98.09 MB (16.95 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 2034 shaders (25.12%), compressed size: 21.92 MB (11.03 KB avg per shader), uncompressed size: 28.81 MB (14.50 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 135 shaders (1.67%), compressed size: 0.35 MB (2.69 KB avg per shader), uncompressed size: 0.44 MB (3.35 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 3 shaders (0.04%), compressed size: 0.01 MB (2.15 KB avg per shader), uncompressed size: 0.01 MB (3.31 KB avg per shader)
+LogShaderLibrary: Display: SF_WorkGraphComputeNode: 1 shaders (0.01%), compressed size: 0.00 MB (2.75 KB avg per shader), uncompressed size: 0.00 MB (3.35 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../UnrealProjects/Chuandi/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Global-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Global' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 1, Unique Shadermaps: 345 (34500.00%)
+LogShaderLibrary: Display: Total Shaders: 3943, Unique Shaders: 3929 (99.64%)
+LogShaderLibrary: Display: Total Shader Size: 11.54mb, Unique Shaders Size: 11.54mb (99.96%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 3
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 309
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     3, 3, 3, 2, 2, 2, 2, 2, 2, 2
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Pixel: 1760 shaders (44.80%), compressed size: 6.64 MB (3.86 KB avg per shader), uncompressed size: 31.28 MB (18.20 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 2052 shaders (52.23%), compressed size: 4.83 MB (2.41 KB avg per shader), uncompressed size: 19.47 MB (9.71 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 115 shaders (2.93%), compressed size: 0.07 MB (0.61 KB avg per shader), uncompressed size: 0.15 MB (1.32 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.05%), compressed size: 0.00 MB (0.49 KB avg per shader), uncompressed size: 0.00 MB (1.55 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../UnrealProjects/Chuandi/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Global-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Discovering localized assets for cultures: en
+LogCook: Display: Found 0 localized assets
+LogCook: Display: ---- Post Content Initialisation: End ----
+LogCook: Display: Cooked packages 0 Packages Remain 594 Total 594
+LogCook: Display: Cook Diagnostics: OpenFileHandles=310, VirtualMemory=1761MiB, VirtualMemoryAvailable=7845MiB
+LogCook: Display: Garbage collection triggered (Soft). Triggered by conditions:
+  CookSettings.SoftGCTimeTrigger: Periodic triggering of SoftGC: No duration data.
+LogCookCommandlet: Display: GarbageCollection... (Periodic GC)
+LogAbilitySystem: Warning: No GameplayCueNotifyPaths were specified in DefaultGame.ini under [/Script/GameplayAbilities.AbilitySystemGlobals]. Falling back to using all of /Game/. This may be slow on large projects. Consider specifying which paths are to be searched.
+LogAbilitySystem: Display: Processing InitializeRuntimeObjectLibrary.
+LogCook: Display: Cooked packages 245 Packages Remain 420 Total 665
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.13.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.11.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.12.dll
+LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.15.dll
+LogCook: Display: Cooked packages 485 Packages Remain 180 Total 665
+LogCook: Display: Cooked packages 560 Packages Remain 105 Total 665
+LogCook: Display: Cooked packages 665 Packages Remain 0 Total 665
+LogCook: Display: Cook Diagnostics: OpenFileHandles=5083, VirtualMemory=2536MiB, VirtualMemoryAvailable=7085MiB
+LogCook: Display: ---- Finalisation: Start ----
+LogCook: Display: CookArtifact 'D:/UnrealProjects/Chuandi/Saved/Cooked/Windows/Chuandi/Metadata/ValidationCookArtifact.json' saved.
+LogAssetRegistryGenerator: Display: Saving asset registry v24.
+LogAssetRegistryGenerator: Display: Generated development asset registry D:/UnrealProjects/Chuandi/Saved/Cooked/Windows/Chuandi/Metadata/DevelopmentAssetRegistry.bin num assets 668, size is 576.37kb, XxHash64[LE] = 0x40EB691F17D09B3B, waited on hash 0.00 seconds
+LogAssetRegistryGenerator: Display: Generated asset registry num assets 661, size is 233.48kb
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Chuandi' (PCD3D_SM6-PCD3D_SM6) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 109, Unique Shadermaps: 108 (99.08%)
+LogShaderLibrary: Display: Total Shaders: 2486, Unique Shaders: 1767 (71.08%)
+LogShaderLibrary: Display: Total Shader Size: 20.91mb, Unique Shaders Size: 16.38mb (78.36%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 11
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 853
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     28, 26, 18, 17, 17, 17, 17, 16, 16, 14
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Compute: 452 shaders (25.58%), compressed size: 7.29 MB (16.52 KB avg per shader), uncompressed size: 9.79 MB (22.17 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 672 shaders (38.03%), compressed size: 4.28 MB (6.52 KB avg per shader), uncompressed size: 5.51 MB (8.40 KB avg per shader)
+LogShaderLibrary: Display: SF_Vertex: 520 shaders (29.43%), compressed size: 3.66 MB (7.21 KB avg per shader), uncompressed size: 4.82 MB (9.49 KB avg per shader)
+LogShaderLibrary: Display: SF_Mesh: 121 shaders (6.85%), compressed size: 1.14 MB (9.64 KB avg per shader), uncompressed size: 1.38 MB (11.66 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.11%), compressed size: 0.01 MB (5.53 KB avg per shader), uncompressed size: 0.02 MB (7.81 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../UnrealProjects/Chuandi/Saved/Shaders/PCD3D_SM6-PCD3D_SM6/ShaderDebug-Chuandi-PCD3D_SM6-PCD3D_SM6/Dump.txt'
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display:
+LogShaderLibrary: Display: Shader Library 'Chuandi' (PCD3D_SM5-PCD3D_SM5) Stats:
+LogShaderLibrary: Display: =================
+LogShaderLibrary: Display: Assets: 109, Unique Shadermaps: 107 (98.17%)
+LogShaderLibrary: Display: Total Shaders: 1577, Unique Shaders: 1002 (63.54%)
+LogShaderLibrary: Display: Total Shader Size: 4.05mb, Unique Shaders Size: 2.80mb (69.06%)
+LogShaderLibrary: Display: === Extended info:
+LogShaderLibrary: Display: Minimum number of shaders in shadermap: 1
+LogShaderLibrary: Display: Median number of shaders in shadermap: 7
+LogShaderLibrary: Display: Maximum number of shaders in shadermap: 361
+LogShaderLibrary: Display: Number of shadermaps referencing top 10 most shared shaders:
+LogShaderLibrary: Display:     18, 18, 17, 16, 16, 16, 15, 15, 14, 12
+LogShaderLibrary: Display: Unique shaders itemization (sorted by compressed size):
+LogShaderLibrary: Display: SF_Vertex: 419 shaders (41.82%), compressed size: 1.05 MB (2.56 KB avg per shader), uncompressed size: 3.18 MB (7.77 KB avg per shader)
+LogShaderLibrary: Display: SF_Pixel: 467 shaders (46.61%), compressed size: 0.92 MB (2.01 KB avg per shader), uncompressed size: 3.27 MB (7.18 KB avg per shader)
+LogShaderLibrary: Display: SF_Compute: 114 shaders (11.38%), compressed size: 0.83 MB (7.46 KB avg per shader), uncompressed size: 3.66 MB (32.87 KB avg per shader)
+LogShaderLibrary: Display: SF_Geometry: 2 shaders (0.20%), compressed size: 0.00 MB (1.75 KB avg per shader), uncompressed size: 0.01 MB (5.60 KB avg per shader)
+LogShaderLibrary: Display: Textual dump saved to '../../../../../UnrealProjects/Chuandi/Saved/Shaders/PCD3D_SM5-PCD3D_SM5/ShaderDebug-Chuandi-PCD3D_SM5-PCD3D_SM5/Dump.txt'
+LogShaderLibrary: Display: =================
+LogCook: Display: Dependent plugin "SteamShared" referenced by "EOS Shared" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAF" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Dependent plugin "UAFAnimGraph" referenced by "IK Rig" wasn't found in enabled plugins list when creating cook metadata file... skipping
+LogCook: Display: Finalize package store(s)...
+LogZenStoreWriter: Display: Flushing...
+LogZenStoreWriter: Display: Saving Zen filesystem manifest 'D:/UnrealProjects/Chuandi/Saved/Cooked/Windows/Chuandi/Metadata/zenfs.manifest'
+LogZenStoreWriter: Display: Output:	49693 Public runtime script objects
+LogCook: Display: Cook by the book total time in tick 7.922654s total time 13.854007
+LogCook: Display: Peak Used virtual 2647 MiB Peak Used physical 2714 MiB
+LogCook: Display: Packages Cooked: 658, Packages Incrementally Skipped: 0, Packages Skipped by Platform: 7, Total Packages: 665
+LogCookStats: Display: Hierarchy Timer Information:
+LogCookStats: Display:   Root: 0.000s (0)
+LogCookStats: Display:     CleanSandbox: 0.617s (1)
+LogCookStats: Display:     CollectFilesToCook: 0.013s (1)
+LogCookStats: Display:       CookModificationDelegate: 0.000s (1)
+LogCookStats: Display:     GenerateLongPackageName: 0.001s (1)
+LogCookStats: Display:     TickMainCookLoop: 7.923s (2)
+LogCookStats: Display:       PumpPollables: 0.001s (3)
+LogCookStats: Display:       PumpRequests: 0.026s (21)
+LogCookStats: Display:       LoadPackageForCooking: 3.133s (3761)
+LogCookStats: Display:       ValidateSourcePackage: 0.000s (665)
+LogCookStats: Display:       SavingPackages: 3.812s (91)
+LogCookStats: Display:         PollPendingCookedPlatformDatas: 0.236s (1780)
+LogCookStats: Display:         PrepareSave: 0.361s (1187)
+LogCookStats: Display:         PrecachePlatformDataForNextPackage: 0.873s (662)
+LogCookStats: Display:           PrepareSave: 0.873s (840)
+LogCookStats: Display:         SaveCookedPackage: 2.321s (665)
+LogCookStats: Display:           GEditorSavePackage: 2.139s (665)
+LogCookStats: Display:             VerifyCanCookPackage: 0.002s (658)
+LogCookStats: Display:           TargetDomainDependencies: 0.101s (665)
+LogCookStats: Display:         ClearAllCachedCookedPlatformData: 0.014s (665)
+LogCookStats: Display:       PostLoadPackageFixup: 0.000s (2)
+LogCookStats: Display:       WaitForAsync: 0.786s (36268)
+LogCookStats: Display:     CookByTheBookFinished: 0.345s (1)
+LogCookStats: Display:       SavingCurrentIniSettings: 0.027s (1)
+LogCookStats: Display:         ProcessingAccessedStrings: 0.002s (1)
+LogCookStats: Display:       ChunkGeneration: 0.008s (1)
+LogCookStats: Display:       FinishPopulateShaderLibrary: 0.000s (1)
+LogCookStats: Display:       CalculateReferencedSet: 0.000s (1)
+LogCookStats: Display:       CookArtifacts.UpdateOplogPackages: 0.004s (1)
+LogCookStats: Display:       PruneShaderLibrary: 0.000s (1)
+LogCookStats: Display:       GeneratorPreSave: 0.000s (1)
+LogCookStats: Display:       BuildChunkManifest: 0.009s (1)
+LogCookStats: Display:         FixupPackageDependenciesForChunks: 0.004s (1)
+LogCookStats: Display:       SaveManifests: 0.000s (1)
+LogCookStats: Display:       SaveAssetRegistry: 0.026s (1)
+LogCookStats: Display:       WriteCookerOpenOrder: 0.005s (1)
+LogCookStats: Display:       WriteCookMetadata: 0.001s (1)
+LogCookStats: Display:       WriteReferencedSet: 0.002s (1)
+LogCookStats: Display:       FinalizePackageStore: 0.181s (1)
+LogCookStats: Display: Misc Cook Stats
+LogCookStats: Display: ===============
+LogCookStats: Display: Validation
+LogCookStats: Display:     Stats=[]
+LogCookStats: Display: Niagara
+LogCookStats: Display:     NiagaraScriptTranslationCount=0
+LogCookStats: Display:     NiagaraCpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraCpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraGpuScriptCompileCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheHitCount=0
+LogCookStats: Display:     NiagaraGpuScriptDdcCacheMissCount=0
+LogCookStats: Display:     NiagaraSystemWaitForCompilationCompleteTime=0.000000
+LogCookStats: Display: ComputeKernelShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: NiagaraShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: ShaderCompiler
+LogCookStats: Display:     BlockingTimeSec=0.000124
+LogCookStats: Display:     AsyncCompileTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderTimeSec=0.000000
+LogCookStats: Display:     GlobalBeginCompileShaderCalls=0
+LogCookStats: Display:     ProcessAsyncResultsTimeSec=0.000160
+LogCookStats: Display: GlobalShader.Misc
+LogCookStats: Display:     ShadersCompiled=0
+LogCookStats: Display: Material
+LogCookStats: Display:     FinishCacheShadersSec=0.312474
+LogCookStats: Display: Cook.Profile.Params
+LogCookStats: Display:     CookProject=Chuandi
+LogCookStats: Display:     CookCultures=
+LogCookStats: Display:     CookLabel=
+LogCookStats: Display:     TargetPlatforms=Windows
+LogCookStats: Display:     IsCookAll=false
+LogCookStats: Display:     IsCookOnTheFly=false
+LogCookStats: Display:     IsIncrementalCook=false
+LogCookStats: Display:     IsIterativeCook=false
+LogCookStats: Display:     IsFastCook=false
+LogCookStats: Display:     IsUnversioned=true
+LogCookStats: Display: CookOnTheFlyServer.Package.Load
+LogCookStats: Display:     NumRequestedLoads=3330
+LogCookStats: Display:     NumPackagesLoaded=3443
+LogCookStats: Display:     NumInlineLoads=113
+LogCookStats: Display: CookOnTheFlyServer.Package.Save
+LogCookStats: Display:     NumPackagesIncrementallySkipped=0
+LogCookStats: Display: CookOnTheFlyServer.QueueSize
+LogCookStats: Display:     PeakRequest=664
+LogCookStats: Display:     PeakLoad=182
+LogCookStats: Display:     PeakSave=57
+LogCookStats: Display: Package.Load
+LogCookStats: Display:     LoadPackageTimeSec=3.626451
+LogCookStats: Display: Package.Save
+LogCookStats: Display:     NumPackagesSaved=665
+LogCookStats: Display:     SavePackageTimeSec=2.115370
+LogCookStats: Display:     TagPackageExportsPresaveTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsTimeSec=0.000000
+LogCookStats: Display:     FullyLoadLoadersTimeSec=0.000000
+LogCookStats: Display:     ResetLoadersTimeSec=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithOuter=0.000000
+LogCookStats: Display:     TagPackageExportsGetObjectsWithMarks=0.000000
+LogCookStats: Display:     SerializeImportsTimeSec=0.000000
+LogCookStats: Display:     SortExportsSeekfreeInnerTimeSec=0.000000
+LogCookStats: Display:     SerializeExportsTimeSec=0.000000
+LogCookStats: Display:     SerializeBulkDataTimeSec=0.003308
+LogCookStats: Display:     AsyncWriteTimeSec=0.000000
+LogCookStats: Display:     MBWritten=0.000000
+LogCookStats: Display: Package.DifferentPackagesSizeMBPerAsset
+LogCookStats: Display: Package.NumberOfDifferencesInPackagesPerAsset
+LogCookStats: Display: Package.PackageDifferencesSizeMBPerAsset
+LogCookStats: Display: Package.DiffTotal
+LogCookStats: Display:     NumberOfDifferentPackages=0
+LogCookStats: Display:     DifferentPackagesSizeMB=0.000000
+LogCookStats: Display:     NumberOfDifferencesInPackages=0
+LogCookStats: Display:     PackageDifferencesSizeMB=0.000000
+LogCookStats: Display: UnversionedProperties
+LogCookStats: Display:     SavedStructs=0
+LogCookStats: Display:     SavedMB=0
+LogCookStats: Display:     EquivalentTaggedMB=0
+LogCookStats: Display:     CompressionRatio=-nan(ind)
+LogCookStats: Display:     BitfieldWasteKB=0
+LogCookStats: Display:
+LogCookStats: Display: Cook Profile
+LogCookStats: Display: ============
+LogCookStats: Display:  0.CookWallTimeSec=22.885566
+LogCookStats: Display:  0. 0.StartupWallTimeSec=8.885526
+LogCookStats: Display:  0. 1.CookProcessingTime=14.000040
+LogCookStats: Display:  0. 1. 1.StartCookByTheBookTimeSec=5.702205
+LogCookStats: Display:  0. 1. 1. 0.BlockOnAssetRegistryTimeSec=1.107556
+LogCookStats: Display:  0. 1. 1. 1.GameCookModificationDelegateTimeSec=0.000043
+LogCookStats: Display:  0. 1. 2.TickCookOnTheSideTimeSec=0.203962
+LogCookStats: Display:  0. 1. 2. 0.TickCookOnTheSideLoadPackagesTimeSec=3.133419
+LogCookStats: Display:  0. 1. 2. 1.TickCookOnTheSideSaveCookedPackageTimeSec=2.321131
+LogCookStats: Display:  0. 1. 2. 1. 0.TickCookOnTheSideResolveRedirectorsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 2. 2.TickCookOnTheSidePrepareSaveTimeSec=1.233903
+LogCookStats: Display:  0. 1. 3.TickLoopGCTimeSec=0.024389
+LogCookStats: Display:  0. 1. 4.TickLoopRecompileShaderRequestsTimeSec=0.000000
+LogCookStats: Display:  0. 1. 5.TickLoopShaderProcessAsyncResultsTimeSec=0.000010
+LogCookStats: Display:  0. 1. 6.TickLoopProcessDeferredCommandsTimeSec=0.000002
+LogCookStats: Display:  0. 1. 7.TickLoopTickCommandletStatsTimeSec=0.000001
+LogCookStats: Display:  0. 1. 8.TickLoopFlushRenderingCommandsTimeSec=0.001355
+LogCookStats: Display:  0. 1. 9.ShaderFlushTimeSec=0.000000
+LogCookStats: Display:  0. 1. 10.ValidationTimeSec=0.000134
+LogCookStats: Display:
+LogCookStats: Display: DDC Summary Stats
+LogCookStats: Display: =================
+LogCookStats: Display: BackEnd         = Installed
+LogCookStats: Display: HasLocalCache   =      true
+LogCookStats: Display: HasSharedCache  =     false
+LogCookStats: Display: HasCloudCache   =     false
+LogCookStats: Display: HasZenCache     =      true
+LogCookStats: Display: TotalGetHits    =      4789
+LogCookStats: Display: TotalGetMisses  =         0
+LogCookStats: Display: TotalGets       =      4789
+LogCookStats: Display: TotalGetHitPct  =  1.000000
+LogCookStats: Display: GetMissPct      =  0.000000
+LogCookStats: Display: TotalPutHits    =         0
+LogCookStats: Display: TotalPutMisses  =         0
+LogCookStats: Display: TotalPuts       =         0
+LogCookStats: Display: TotalPutHitPct  =  0.000000
+LogCookStats: Display: PutMissPct      =  0.000000
+LogCookStats: Display: LocalGetHits    =      3406
+LogCookStats: Display: LocalGetMisses  =         0
+LogCookStats: Display: LocalGetTotal   =      3406
+LogCookStats: Display: LocalGetHitPct  =  1.000000
+LogCookStats: Display: SharedGetHits   =         0
+LogCookStats: Display: SharedGetTotal  =         0
+LogCookStats: Display: SharedGetHitPct =  0.000000
+LogCookStats: Display: ZenLocalGetHits =      3406
+LogCookStats: Display: ZenLocalGetTotal=      3406
+LogCookStats: Display: ZenLocalGetHitPct=  1.000000
+LogCookStats: Display: ZenRemoteGetHits=         0
+LogCookStats: Display: ZenRemoteGetTotal=         0
+LogCookStats: Display: ZenRemoteGetHitPct=  0.000000
+LogCookStats: Display: ZenRemoteReadSpeed=  0.000000
+LogCookStats: Display: ZenRemoteWriteSpeed=  0.000000
+LogCookStats: Display: ZenRemoteLatency=  0.000000
+LogCookStats: Display: CloudGetHits    =         0
+LogCookStats: Display: CloudGetTotal   =         0
+LogCookStats: Display: CloudGetHitPct  =  0.000000
+LogCookStats: Display: LocalLatency    =  0.923325
+LogCookStats: Display: LocalReadSpeed  = 41.875338
+LogCookStats: Display: LocalWriteSpeed =  0.000000
+LogCookStats: Display: SharedLatency   =  0.000000
+LogCookStats: Display: SharedReadSpeed =  0.000000
+LogCookStats: Display: SharedWriteSpeed=  0.000000
+LogCookStats: Display: CloudLatency    =  0.000000
+LogCookStats: Display: CloudReadSpeed  =  0.000000
+LogCookStats: Display: CloudWriteSpeed =  0.000000
+LogCookStats: Display:
+LogCookStats: Display: DDC Resource Stats
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: Asset Type                          Total Time (Sec)  GameThread Time (Sec)  Assets Built  MB Processed
+LogCookStats: Display: ----------------------------------  ----------------  ---------------------  ------------  ------------
+LogCookStats: Display: BulkDataList                                    6.33                   0.00             0          0.57
+LogCookStats: Display: MaterialShader                                  2.78                   0.27             0         26.79
+LogCookStats: Display: GlobalShader                                    0.24                   0.24             0        107.44
+LogCookStats: Display: Texture                                         0.17                   0.00             0         23.65
+LogCookStats: Display: AnimationSequence                               0.11                   0.00             0          2.33
+LogCookStats: Display: SkeletalMesh                                    0.01                   0.00             0         10.67
+LogCookStats: Display: StaticMesh                                      0.01                   0.00             0          0.90
+LogCookStats: Display: CardRepresentation                              0.00                   0.00             0          0.02
+LogCookStats: Display: NavCollision                                    0.00                   0.00             0          0.04
+LogCookStats: Display: STREAMEDAUDIO                                   0.00                   0.00             0          0.09
+LogCookStats: Display: Audio                                           0.00                   0.00             0          0.08
+LogCookStats: Display: CKERSM                                          0.00                   0.00             0          0.16
+LogCookStats: Display: BodySetup                                       0.00                   0.00             0          0.31
+LogCookStats: Display:
+LogCookStats: Display: Accumulated DDC Resource Stats Per Asset Type
+LogCookStats: Display: =======================================================================================================
+LogCookStats: Display: AnimationSequence                               0.11                   0.00             0          2.33
+LogCookStats: Display: Audio                                           0.00                   0.00             0          0.08
+LogCookStats: Display: CardRepresentation                              0.00                   0.00             0          0.02
+LogCookStats: Display: DistanceField                                   0.00                   0.00             0          0.00
+LogCookStats: Display: MaterialShader                                  2.78                   0.27             0         26.79
+LogCookStats: Display: MaterialTranslation                             0.00                   0.00             0          0.00
+LogCookStats: Display: NiagaraScript                                   0.00                   0.00             0          0.00
+LogCookStats: Display: SkeletalMesh                                    0.01                   0.00             0         10.67
+LogCookStats: Display: StaticMesh                                      0.01                   0.00             0          0.90
+LogCookStats: Display: Texture                                         0.17                   0.00             0         23.65
+LogCookStats: Display: Other                                           6.58                   0.24             0        108.59
+LogPackageBuildDependencyTracker: Display: Package Accesses (356 referencing packages with a total of 3476 unique accesses)
+LogConfigBuildDependencyTracker: Display: Config Accesses (326 referencing packages with a total of 697 unique accesses). 1765 unique accesses that were not associated with a package.
+LogCook: Display: ---- Finalisation: End ----
+LogCook: Display: Done!
+LogSavePackage: Display: Took 0.000439s to verify the EDL loading graph.
+LogInit: Display:
+LogInit: Display: Warning/Error Summary (Unique only)
+LogInit: Display: -----------------------------------
+LogInit: Display: LogAbilitySystem: Warning: No GameplayCueNotifyPaths were specified in DefaultGame.ini under [/Script/GameplayAbilities.AbilitySystemGlobals]. Falling back to using all of /Game/. This may be slow on large projects. Consider specifying which paths are to be searched.
+LogInit: Display:
+LogInit: Display: Success - 0 error(s), 1 warning(s)
+LogInit: Display:
+
+Execution of commandlet took:  14.00 seconds, PeakPhysMemoryMB=2714 MB, PeakVirtMemoryMB=2647 MB
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles (PostWrite): 1 .ref files found, 1 referenced binaries
+LogAssetRegistry: Display: CleanupOrphanedCacheFiles: 1 total binaries, 1 referenced (kept), 0 old-style pre-migration (kept), 0 orphans deleted, 0 orphans locked (kept)
+LogStreaming: Display: ============ Loader Stats ============
+LogStreaming: Display: Unique Partial Flushes: 0
+LogStreaming: Display: ============ Loader Stats End ============
+LogShaderCompilers: Display: Exiting ShaderCompilingThread
+Took 26.11s to run UnrealEditor-Cmd.exe, ExitCode=0
+Cook command time: 26.19 s
+********** COOK COMMAND COMPLETED **********
+********** STAGE COMMAND STARTED **********
+Creating Staging Manifest...
+Patching bootstrap executable; D:\UnrealProjects\Chuandi\Intermediate\Staging\Chuandi.exe
+Begin update resource 'D:\UnrealProjects\Chuandi\Intermediate\Staging\Chuandi.exe' (0)
+Add resource 101, length 104 (True)
+Add resource 1, length 1996 (True)
+Add resource 2, length 2447 (True)
+Add resource 3, length 2535 (True)
+Add resource 4, length 3037 (True)
+Add resource 5, length 3244 (True)
+Add resource 6, length 3531 (True)
+Add resource 7, length 6931 (True)
+Add resource 201, length 70 (True)
+Add resource 202, length 16 (True)
+Add resource 205, length 2 (True)
+End update resource (True/0)
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\PropertyNames.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BasePakFileRules.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseSourceControlSettings.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\Category.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\RepairData.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\Engine.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\PortableObjectImport.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\ToolTips.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\Editor.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\Keywords.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseEditorKeyBindings.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseEditorSettings.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\WordCount.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseLightmass.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseEditor.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Localization\PortableObjectExport.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Windows\WindowsEditorPerProjectUserSettings.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\Windows\WindowsEditorSettings.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseUnrealInsightsSettings.ini
+Excluding config file D:\Epic Games\UE_5.8\Engine\Config\BaseEditorPerProjectUserSettings.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseEngine.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\VulkanPC\DataDrivenPlatformInfo.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Windows\DataDrivenPlatformInfo.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseScalability.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseRuntimeOptions.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseCompat.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Base.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseGameUserSettings.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseGame.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseInstallBundle.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseDeviceProfiles.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsGame.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Windows\WindowsGame.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseInput.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseHardware.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Windows\WindowsInput.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsInput.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\BaseMaterialExpressions.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Windows\BaseWindowsEngine.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\ConsoleVariables.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\ConfigRedirects.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Layouts\UE4ClassicLayout.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\Layouts\DefaultLayout.ini
+Including config file D:\Epic Games\UE_5.8\Engine\Config\PluginBase.ini
+Including config file D:\UnrealProjects\Chuandi\Config\DefaultEngine.ini
+Including config file D:\UnrealProjects\Chuandi\Config\DefaultInput.ini
+Including config file D:\UnrealProjects\Chuandi\Config\DefaultGameplayTags.ini
+Including config file D:\UnrealProjects\Chuandi\Config\DefaultGame.ini
+Reading oplog from Zen...
+Reading oplog from http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows/entries?trim_by_referencedset=true
+Failed reading oplog from Zen at [::1]:8558 (attempt 1/3): One or more errors occurred. (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 87a780e7b3dd1fec3dcd6f48de40489979c959d3.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment b271de8f9633b7cdfeabdbe618953f499d108109.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 43c8c2976ed9d8c9a5adf0008c467ec920598b22.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment a12f079acffddd0816c79bd3f86997b612cbc16b.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 79b1d882abe1aad9c9ebd23548eb033a0a8e1fd6.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 62c5f5363cb1aeaa23d824d3a1f03faf2aca12af.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 6535605c3872ceb2407ae2554b6f2df01d5d68a2.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment b40ab4b0d68bce2d4e92f4915cf6dfab4c47c3fa.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment dd0ba64d1c62a4d06bfaea473dca271fae86230b.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 55792ba0e1d13522143745308d1aef6606281c6c.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 424fc7dcd260de9427545c1ca89007bd3b5edf01.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 6b938d74226110cf0724ed069fba7d4299fd3dec.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 8a683acc2cde1d589e46781c2cc1184d858c39f4.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 95a8e79af9c1b052e6fb4c4c9eb5cde0aa5f8209.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 76b6f39d5b031717f9c3acf344009acd8e24d66f.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 6b0ba45e367962c0cd497f6a39de7a48a1abf211.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 3aeebdc48e626e19372e65d1ee192ec70ed6deb0.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 0370dfed0d470d07f1840900341260e40feffa5f.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 1fb32aeb6b30c47df2714a293ba6448b795a395d.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 70896bc1e6e9b08c4d1e92957e2be12f13da91b4.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment e7179693eaeeaf9e3067bbe085c3bec54e81d5b0.
+HTTP NotFound.
+Ensure that cooking was successful.). Re-checking ZenServer readiness and retrying.
+Reading oplog from http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows/entries?trim_by_referencedset=true
+Failed reading oplog from Zen at [::1]:8558 (attempt 2/3): One or more errors occurred. (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 43c8c2976ed9d8c9a5adf0008c467ec920598b22.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment cc952de95d8ecabcc415a43022bfbbab210fd5f2.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 8ecf7c8a650f5876dc111b55077cac23768c74b0.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 4bef08f6cb734285c40b22092f1c37a68049843d.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 62c5f5363cb1aeaa23d824d3a1f03faf2aca12af.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 70896bc1e6e9b08c4d1e92957e2be12f13da91b4.
+HTTP NotFound.
+Ensure that cooking was successful.). Re-checking ZenServer readiness and retrying.
+Reading oplog from http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows/entries?trim_by_referencedset=true
+Failed reading oplog from Zen at [::1]:8558 for oplog Chuandi.bcff98bc.Windows after 3 attempts: One or more errors occurred. (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 43c8c2976ed9d8c9a5adf0008c467ec920598b22.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment cc952de95d8ecabcc415a43022bfbbab210fd5f2.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 8ecf7c8a650f5876dc111b55077cac23768c74b0.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 8a683acc2cde1d589e46781c2cc1184d858c39f4.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment 70896bc1e6e9b08c4d1e92957e2be12f13da91b4.
+HTTP NotFound.
+Ensure that cooking was successful.) (Failed to read op from Zen at http://[::1]:8558/prj/Chuandi.bcff98bc/oplog/Windows for attachment aaa1dc5da1752c6fd04958080ad6a565a60157e2.
+HTTP NotFound.
+Ensure that cooking was successful.).
+(see C:\Users\25544\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Epic+Games+UE_5.8\Log.txt for full exception trace)
+AutomationTool executed for 0h 0m 28s
+AutomationTool exiting with ExitCode=1 (Error_Unknown)
+BUILD FAILED

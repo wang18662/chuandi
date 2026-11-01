@@ -1,0 +1,1 @@
+dome mesh=Sphere mat=M_VolcanicSky scale=<Struct 'Vector' (0x0000027AFE5C7490) {x: 1600.000000, y: 1600.000000, z: 1600.000000}>

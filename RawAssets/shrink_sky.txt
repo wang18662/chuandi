@@ -1,0 +1,2 @@
+shrunk+centered SM_SkySphere
+SAVE False

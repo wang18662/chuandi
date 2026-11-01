@@ -1,0 +1,231 @@
+Running AutomationTool...
+Using bundled DotNet SDK version: 10.0 win-x64
+Starting AutomationTool...
+Parsing command line: BuildCookRun -project=D:/UnrealProjects/Chuandi/Chuandi.uproject -noP4 -platform=Win64 -clientconfig=Development -cook -stage -pak -archive -archivedirectory=D:/UnrealProjects/Chuandi/Packaged -build -unattended -utf8output -NoUBA
+Initializing script modules...
+Total script module initialization time: 0.26 s.
+Using D:\vs2026\MSBuild\Current\Bin\MSBuild.exe
+Executing commands...
+Setting up ProjectParams for D:\UnrealProjects\Chuandi\Chuandi.uproject
+********** BUILD COMMAND STARTED **********
+Running: D:\Epic Games\UE_5.8\Engine\Binaries\ThirdParty\DotNet\10.0\win-x64\dotnet.exe "D:\Epic Games\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -Target="ChuandiEditor Win64 Development -Project=D:\UnrealProjects\Chuandi\Chuandi.uproject" -Target="Chuandi Win64 Development -Project=D:\UnrealProjects\Chuandi\Chuandi.uproject  -remoteini=\"D:\UnrealProjects\Chuandi\"  " -log="C:\Users\25544\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Epic+Games+UE_5.8\UBA-ChuandiEditor-Win64-Development.txt"
+Log file: C:\Users\25544\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Epic+Games+UE_5.8\UBA-ChuandiEditor-Win64-Development.txt
+Executing up to 4 actions based on MaxProcessorCount override
+UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
+Available x64 toolchains (1):
+Available x64 toolchains (1):
+ * D:\vs2026\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36260, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+ * D:\vs2026\VC\Tools\MSVC\14.51.36231
+    (Family=14.51.36231, FamilyRank=2, Version=14.51.36260, HostArchitecture=x64, ReleaseChannel=Latest, Architecture=x64)
+Visual Studio compiler version 14.51.36260 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Visual Studio compiler version 14.51.36260 is newer than latest preferred version 14.50.35717. Please use caution as this compiler has not been heavily tested
+Building ChuandiEditor and Chuandi...
+===== Toolchain Information =====
+ChuandiEditor Win64 Development:
+  Using ISPC compiler (D:\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+    Intel(r) Implicit SPMD Program Compiler (Intel(r) ISPC), 1.24.0 (build commit  @ 20250404, LLVM 18.1.2)
+  Using Visual Studio 14.51.36260 toolchain (D:\vs2026\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (D:\Windows Kits\10).
+  Warning: Visual Studio compiler 14.51.36260 is not a preferred version
+  [Adaptive Build] Excluded from Chuandi unity file: Chuandi.cpp, ChuandiCombatMath.cpp, ChuandiLog.cpp, ChuandiNativeTags.cpp, ChuandiCheatManager.cpp, ChuandiGameMode.cpp, ChuandiGameSettings.cpp, ChuandiHUD.cpp, ChuandiPlayerController.cpp, ChuandiTuningData.cpp, ChuandiBossCharacter.cpp, ChuandiTargetDummy.cpp, ChuandiPlayerCharacter.cpp, ChuandiMeteorPitActor.cpp, CoverActor.cpp, TelegraphActor.cpp, TrapActor.cpp, TrapIndicatorActor.cpp, WaveRingActor.cpp, BossPerceptionComponent.cpp, BossStateMachineComponent.cpp, BreakMeterComponent.cpp, TrapSubsystem.cpp, ChuandiAbilitySystemComponent.cpp, ChuandiAttributeSet.cpp, ChuandiBreakEffect.cpp, ChuandiCombatLibrary.cpp, ChuandiDamageEffect.cpp, ChuandiDamageExecCalc.cpp, ChuandiFrozenEffect.cpp, ChuandiParryCooldown.cpp, ChuandiSlowEffect.cpp, GA_BossBurrow.cpp, GA_BossMelee.cpp, GA_BossMeteor.cpp, GA_BossWave.cpp, GA_PlayerAttack.cpp, GA_PlayerDodge.cpp, GA_PlayerParry.cpp, GA_PlayerPlaceTrap.cpp, GA_PlayerSkill.cpp, ChuandiTests.cpp
+Chuandi Win64 Development:
+  Using ISPC compiler (D:\Epic Games\UE_5.8\Engine\Source\ThirdParty\Intel\ISPC\bin\Windows\ispc.exe)
+
+  Using Visual Studio 14.51.36260 toolchain (D:\vs2026\VC\Tools\MSVC\14.51.36231) and Windows 10.0.26100.0 SDK (D:\Windows Kits\10).
+  Warning: Visual Studio compiler 14.51.36260 is not a preferred version
+  [Adaptive Build] Excluded from Chuandi unity file: Chuandi.cpp, ChuandiCombatMath.cpp, ChuandiLog.cpp, ChuandiNativeTags.cpp, ChuandiCheatManager.cpp, ChuandiGameMode.cpp, ChuandiGameSettings.cpp, ChuandiHUD.cpp, ChuandiPlayerController.cpp, ChuandiTuningData.cpp, ChuandiBossCharacter.cpp, ChuandiTargetDummy.cpp, ChuandiPlayerCharacter.cpp, ChuandiMeteorPitActor.cpp, CoverActor.cpp, TelegraphActor.cpp, TrapActor.cpp, TrapIndicatorActor.cpp, WaveRingActor.cpp, BossPerceptionComponent.cpp, BossStateMachineComponent.cpp, BreakMeterComponent.cpp, TrapSubsystem.cpp, ChuandiAbilitySystemComponent.cpp, ChuandiAttributeSet.cpp, ChuandiBreakEffect.cpp, ChuandiCombatLibrary.cpp, ChuandiDamageEffect.cpp, ChuandiDamageExecCalc.cpp, ChuandiFrozenEffect.cpp, ChuandiParryCooldown.cpp, ChuandiSlowEffect.cpp, GA_BossBurrow.cpp, GA_BossMelee.cpp, GA_BossMeteor.cpp, GA_BossWave.cpp, GA_PlayerAttack.cpp, GA_PlayerDodge.cpp, GA_PlayerParry.cpp, GA_PlayerPlaceTrap.cpp, GA_PlayerSkill.cpp, ChuandiTests.cpp
+=================================
+Using Unreal Build Accelerator local executor to run 49 action(s)
+  CPU 24 physical cores, 32 logical cores
+  Memory 31.8 GB physical, 23.92 GB/37.8 GB committed
+  UBA Storage capacity 40 GB
+** For Chuandi-Win64-Development **
+ Compile [x64] BossPerceptionComponent.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] BossPerceptionComponent.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] BossPerceptionComponent.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/BossPerceptionComponent.cpp.obj.rsp"
+[1/49] Compile [x64] BossPerceptionComponent.cpp [NoUba]
+** For ChuandiEditor-Win64-Development **
+ Compile [x64] Module.Chuandi.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] Module.Chuandi.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] Module.Chuandi.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealEditor/Development/Chuandi/Module.Chuandi.cpp.obj.rsp"
+[2/49] Compile [x64] Module.Chuandi.cpp [NoUba]
+** For Chuandi-Win64-Development **
+ Compile [x64] BreakMeterComponent.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] BreakMeterComponent.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] BreakMeterComponent.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/BreakMeterComponent.cpp.obj.rsp"
+[3/49] Compile [x64] BreakMeterComponent.cpp [NoUba]
+ Compile [x64] BossStateMachineComponent.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] BossStateMachineComponent.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] BossStateMachineComponent.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/BossStateMachineComponent.cpp.obj.rsp"
+[4/49] Compile [x64] BossStateMachineComponent.cpp [NoUba]
+ Compile [x64] ChuandiBossCharacter.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiBossCharacter.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiBossCharacter.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiBossCharacter.cpp.obj.rsp"
+[5/49] Compile [x64] ChuandiBossCharacter.cpp [NoUba]
+ Compile [x64] Chuandi.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] Chuandi.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] Chuandi.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/Chuandi.cpp.obj.rsp"
+[6/49] Compile [x64] Chuandi.cpp [NoUba]
+ Compile [x64] ChuandiAttributeSet.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiAttributeSet.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiAttributeSet.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiAttributeSet.cpp.obj.rsp"
+[7/49] Compile [x64] ChuandiAttributeSet.cpp [NoUba]
+ Compile [x64] ChuandiAbilitySystemComponent.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiAbilitySystemComponent.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiAbilitySystemComponent.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiAbilitySystemComponent.cpp.obj.rsp"
+[8/49] Compile [x64] ChuandiAbilitySystemComponent.cpp [NoUba]
+ Compile [x64] ChuandiBreakEffect.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiBreakEffect.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiBreakEffect.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiBreakEffect.cpp.obj.rsp"
+[9/49] Compile [x64] ChuandiBreakEffect.cpp [NoUba]
+ Compile [x64] ChuandiCombatLibrary.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiCombatLibrary.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiCombatLibrary.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiCombatLibrary.cpp.obj.rsp"
+[10/49] Compile [x64] ChuandiCombatLibrary.cpp [NoUba]
+ Compile [x64] ChuandiCheatManager.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiCheatManager.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiCheatManager.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiCheatManager.cpp.obj.rsp"
+[11/49] Compile [x64] ChuandiCheatManager.cpp [NoUba]
+ Compile [x64] ChuandiCombatMath.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiCombatMath.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiCombatMath.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiCombatMath.cpp.obj.rsp"
+[12/49] Compile [x64] ChuandiCombatMath.cpp [NoUba]
+ Compile [x64] ChuandiDamageEffect.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiDamageEffect.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiDamageEffect.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiDamageEffect.cpp.obj.rsp"
+[13/49] Compile [x64] ChuandiDamageEffect.cpp [NoUba]
+ Compile [x64] ChuandiDamageExecCalc.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiDamageExecCalc.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiDamageExecCalc.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiDamageExecCalc.cpp.obj.rsp"
+[14/49] Compile [x64] ChuandiDamageExecCalc.cpp [NoUba]
+ Compile [x64] ChuandiGameMode.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiGameMode.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiGameMode.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiGameMode.cpp.obj.rsp"
+[15/49] Compile [x64] ChuandiGameMode.cpp [NoUba]
+ Compile [x64] ChuandiFrozenEffect.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiFrozenEffect.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiFrozenEffect.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiFrozenEffect.cpp.obj.rsp"
+[16/49] Compile [x64] ChuandiFrozenEffect.cpp [NoUba]
+ Compile [x64] ChuandiGameSettings.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiGameSettings.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiGameSettings.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiGameSettings.cpp.obj.rsp"
+[17/49] Compile [x64] ChuandiGameSettings.cpp [NoUba]
+ Compile [x64] ChuandiHUD.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiHUD.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiHUD.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiHUD.cpp.obj.rsp"
+[18/49] Compile [x64] ChuandiHUD.cpp [NoUba]
+ Compile [x64] ChuandiMeteorPitActor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiMeteorPitActor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiMeteorPitActor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiMeteorPitActor.cpp.obj.rsp"
+[19/49] Compile [x64] ChuandiMeteorPitActor.cpp [NoUba]
+ Compile [x64] ChuandiLog.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiLog.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiLog.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiLog.cpp.obj.rsp"
+[20/49] Compile [x64] ChuandiLog.cpp [NoUba]
+ Compile [x64] ChuandiNativeTags.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiNativeTags.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiNativeTags.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiNativeTags.cpp.obj.rsp"
+[21/49] Compile [x64] ChuandiNativeTags.cpp [NoUba]
+ Compile [x64] ChuandiParryCooldown.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiParryCooldown.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiParryCooldown.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiParryCooldown.cpp.obj.rsp"
+[22/49] Compile [x64] ChuandiParryCooldown.cpp [NoUba]
+ Compile [x64] ChuandiPlayerCharacter.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiPlayerCharacter.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiPlayerCharacter.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiPlayerCharacter.cpp.obj.rsp"
+[23/49] Compile [x64] ChuandiPlayerCharacter.cpp [NoUba]
+ Compile [x64] ChuandiPlayerController.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiPlayerController.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiPlayerController.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiPlayerController.cpp.obj.rsp"
+[24/49] Compile [x64] ChuandiPlayerController.cpp [NoUba]
+ Compile [x64] ChuandiSlowEffect.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiSlowEffect.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiSlowEffect.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiSlowEffect.cpp.obj.rsp"
+[25/49] Compile [x64] ChuandiSlowEffect.cpp [NoUba]
+ Compile [x64] ChuandiTargetDummy.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiTargetDummy.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiTargetDummy.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiTargetDummy.cpp.obj.rsp"
+[26/49] Compile [x64] ChuandiTargetDummy.cpp [NoUba]
+ Compile [x64] ChuandiTests.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiTests.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiTests.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiTests.cpp.obj.rsp"
+[27/49] Compile [x64] ChuandiTests.cpp [NoUba]
+ Compile [x64] ChuandiTuningData.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] ChuandiTuningData.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] ChuandiTuningData.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/ChuandiTuningData.cpp.obj.rsp"
+[28/49] Compile [x64] ChuandiTuningData.cpp [NoUba]
+ Compile [x64] GA_BossBurrow.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_BossBurrow.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_BossBurrow.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_BossBurrow.cpp.obj.rsp"
+[29/49] Compile [x64] GA_BossBurrow.cpp [NoUba]
+ Compile [x64] CoverActor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] CoverActor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] CoverActor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/CoverActor.cpp.obj.rsp"
+[30/49] Compile [x64] CoverActor.cpp [NoUba]
+ Compile [x64] GA_BossMelee.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_BossMelee.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_BossMelee.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_BossMelee.cpp.obj.rsp"
+[31/49] Compile [x64] GA_BossMelee.cpp [NoUba]
+ Compile [x64] GA_BossMeteor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_BossMeteor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_BossMeteor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_BossMeteor.cpp.obj.rsp"
+[32/49] Compile [x64] GA_BossMeteor.cpp [NoUba]
+ Compile [x64] GA_BossWave.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_BossWave.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_BossWave.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_BossWave.cpp.obj.rsp"
+[33/49] Compile [x64] GA_BossWave.cpp [NoUba]
+ Compile [x64] GA_PlayerDodge.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_PlayerDodge.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_PlayerDodge.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_PlayerDodge.cpp.obj.rsp"
+[34/49] Compile [x64] GA_PlayerDodge.cpp [NoUba]
+ Compile [x64] GA_PlayerAttack.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_PlayerAttack.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_PlayerAttack.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_PlayerAttack.cpp.obj.rsp"
+[35/49] Compile [x64] GA_PlayerAttack.cpp [NoUba]
+ Compile [x64] GA_PlayerParry.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_PlayerParry.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_PlayerParry.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_PlayerParry.cpp.obj.rsp"
+[36/49] Compile [x64] GA_PlayerParry.cpp [NoUba]
+ Compile [x64] GA_PlayerSkill.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_PlayerSkill.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_PlayerSkill.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_PlayerSkill.cpp.obj.rsp"
+[37/49] Compile [x64] GA_PlayerSkill.cpp [NoUba]
+ Compile [x64] GA_PlayerPlaceTrap.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] GA_PlayerPlaceTrap.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] GA_PlayerPlaceTrap.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/GA_PlayerPlaceTrap.cpp.obj.rsp"
+[38/49] Compile [x64] GA_PlayerPlaceTrap.cpp [NoUba]
+ Compile [x64] Module.Chuandi.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] Module.Chuandi.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] Module.Chuandi.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/Module.Chuandi.cpp.obj.rsp"
+[39/49] Compile [x64] Module.Chuandi.cpp [NoUba]
+ Compile [x64] TelegraphActor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] TelegraphActor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] TelegraphActor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/TelegraphActor.cpp.obj.rsp"
+[40/49] Compile [x64] TelegraphActor.cpp [NoUba]
+ Compile [x64] TrapSubsystem.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] TrapSubsystem.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] TrapSubsystem.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/TrapSubsystem.cpp.obj.rsp"
+[41/49] Compile [x64] TrapSubsystem.cpp [NoUba]
+ Compile [x64] WaveRingActor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] WaveRingActor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] WaveRingActor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/WaveRingActor.cpp.obj.rsp"
+[42/49] Compile [x64] WaveRingActor.cpp [NoUba]
+ Compile [x64] TrapIndicatorActor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] TrapIndicatorActor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] TrapIndicatorActor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/TrapIndicatorActor.cpp.obj.rsp"
+[43/49] Compile [x64] TrapIndicatorActor.cpp [NoUba]
+ Compile [x64] TrapActor.cpp [NoUba]: Exited with error code 1 . The build will fail.
+ Compile [x64] TrapActor.cpp [NoUba]: WorkingDirectory D:\Epic Games\UE_5.8\Engine\Source
+ Compile [x64] TrapActor.cpp [NoUba]: D:\vs2026\VC\Tools\MSVC\14.51.36231\bin\Hostx64\x64\cl.exe @"D:/UnrealProjects/Chuandi/Intermediate/Build/Win64/x64/UnrealGame/Development/Chuandi/TrapActor.cpp.obj.rsp"
+[44/49] Compile [x64] TrapActor.cpp [NoUba]
+UbaSessionServer - SetFileInformationByHandle (FileDispositionInfo) failed on 4004 C:\ProgramData\Epic\UnrealBuildAccelerator\memgroups (Access is denied.)
+Total time in Unreal Build Accelerator local executor: 0.64 seconds
+
+Result: Failed (OtherCompilationError)
+Total execution time: 1.75 seconds
+Trace written to file C:\Users\25544\AppData\Local\UnrealBuildTool\Trace.uba with size 8.8kb
+Took 1.94s to run dotnet.exe, ExitCode=6
+UnrealBuildTool failed. See log for more details. (C:\Users\25544\AppData\Roaming\Unreal Engine\AutomationTool\Logs\D+Epic+Games+UE_5.8\UBA-ChuandiEditor-Win64-Development.txt)
+AutomationTool executed for 0h 0m 3s
+AutomationTool exiting with ExitCode=6 (6)
+BUILD FAILED

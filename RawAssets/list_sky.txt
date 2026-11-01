@@ -1,0 +1,2 @@
+SM_SkySphere | mesh=SM_SkySphere | mat=M_VolcanicSky | scale=<Struct 'Vector' (0x00000257AC2CDB90) {x: 400.000000, y: 400.000000, z: 400.000000}> | loc=<Struct 'Vector' (0x00000257AC2CDB90) {x: 0.000000, y: 0.000000, z: 0.000000}>
+Floor | mesh=SM_Template_Map_Floor | mat=M_Lava | scale=<Struct 'Vector' (0x00000257975C7490) {x: 200.000000, y: 200.000000, z: 0.200000}> | loc=<Struct 'Vector' (0x00000257975C7490) {x: 5000.000000, y: 5000.000000, z: -10.000000}>

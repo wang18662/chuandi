@@ -1,0 +1,3 @@
+SM  SM_SkySphere       mat=M_VolcanicSky
+SM  Floor              mat=M_Lava
+BOSS ChuandiBossCharacter  geo_parts=8

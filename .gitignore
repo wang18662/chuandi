@@ -1,0 +1,20 @@
+# UE 工程标准忽略项
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Packaged/
+Build/
+
+# Visual Studio
+.vs/
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.suo
+*.user
+
+# 系统
+Thumbs.db
+.DS_Store

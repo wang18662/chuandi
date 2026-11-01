@@ -1,0 +1,2 @@
+RESPAWN ChuandiBossCharacter ok
+SAVE_RESULT True

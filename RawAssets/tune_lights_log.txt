@@ -1,0 +1,4 @@
+PPV manual exposure EV=0.5
+SKYLIGHT intensity=2.5 realtime
+SUN warm orange, intensity=3.0
+SAVE True

@@ -1,0 +1,4 @@
+functions: connect_material_property, disconnect_material_property, get_editor_property, get_material_property_input_node, get_material_property_input_node_output_name, is_editor_property_overridden, reset_editor_property, set_editor_property
+EMISSIVE input node: MaterialExpressionTextureSample_0
+BASE input node: None
+tex srgb=True compression=<TextureCompressionSettings.TC_DEFAULT: 0>

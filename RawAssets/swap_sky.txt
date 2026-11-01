@@ -1,0 +1,3 @@
+removed SM_SkySphere
+spawned ChuandiSkyDome
+SAVE True

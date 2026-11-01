@@ -1,0 +1,8 @@
+M_Lava: expr=5 shading=<MaterialShadingModel.MSM_DEFAULT_LIT: 1> two_sided=False
+   - MaterialExpressionTextureCoordinate 
+   - MaterialExpressionTextureSample Lava003_2K-JPG_Color
+   - MaterialExpressionTextureSample Lava003_2K-JPG_Roughness
+   - MaterialExpressionTextureSample Lava003_2K-JPG_NormalDX
+   - MaterialExpressionTextureSample Lava003_2K-JPG_Emission
+M_VolcanicSky: expr=1 shading=<MaterialShadingModel.MSM_UNLIT: 0> two_sided=True
+   - MaterialExpressionTextureSample T_VolcanicSky_2K

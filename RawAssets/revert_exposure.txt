@@ -1,0 +1,4 @@
+PPV -> auto exposure (histogram)
+SUN -> warm, intensity 8.0
+SKYLIGHT -> 1.5
+SAVE True
